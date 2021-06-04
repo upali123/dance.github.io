@@ -1,0 +1,32 @@
+.card{
+    border: 2px solid black;
+    width: 390px;
+    text-align: left;
+    justify-content: center;
+}
+
+
+.card h1{
+    background-color: pink;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cornsilk;
+   
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-img{
+    height: 100px;
+    padding: 5px 8px;
+    margin: 5px 9px;
+}
+.card-content{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(247, 245, 245);
+}
+.card-content p{
+    font-size: small;
+}

@@ -1,0 +1,36 @@
+extends base.pug 
+block scripts
+   script(src='/static/index.js')
+
+block style 
+       style 
+         include ../static/style.css
+         include ../static/styleservices.css 
+block content
+    section#servicesSection 
+      
+        div.card
+           h1 SERVICES no. 1
+            h1 free for pre register peoples
+           div.card-box
+               div.card-img
+                  img(src="/static/photos/pre register.png")
+               div.card-content
+                  p Register yourself via phone call ,mail
+        div.card
+           h1 SERVICES no. 2
+           h1  ONLINE CLASS
+           div.card-box
+               div.card-img
+                  img(src="/static/photos/u.jpg")
+               div.card-content
+                  p THIS ACADEMY PROVIDES YOU ONLINE SERVICES ALSO
+        div.card
+           h1 SERVICES no. 3
+           h1 CHILDREN NO FEES BELOW 10
+           div.card-box
+               div.card-img
+                  img(src="/static/photos/children.jpg")
+               div.card-content
+                  p This is a best dance academy of the universe
+                  

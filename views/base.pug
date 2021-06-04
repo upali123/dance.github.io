@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html
+html
+  head
+    title upalidanceacademy
+    block scripts
+    block style  
+  body
+    
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/photos/logo.jpg")
+                | HDA
+            li #[a(href = "/") Home ]
+            li #[a(href = "/about") About ]
+            li #[a(href = "/services") Services ]
+            li #[a(href = "/classinfo") Class Info]
+            li #[a(href = "/contact") Contact us]
+    block content
+    footer#footer
+        |  copyright © 2021 upalidanceAcademywebsite.com | All rights reserved
+        

@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts
+   script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css 
+
+block content
+    
+    section#introSection   
+        div WELCOME TO UPALI KHANDURI'S DANCE ACADEMY WEBSITE
+        div.small EAT SLEEP DANCE REPEAT
+    section#missonSection 
+        h2 our mission 
+        div.card
+           h3 Dance Perfection
+           div.card-box
+               div.card-img
+                  img(src="/static/photos/h.jpg")
+               div.card-content
+                  p This is a best dance academy of the universe
+        div.card
+           h3 Dance forms
+           div.card-box
+               div.card-img
+                  img(src="/static/photos/l.jpg")
+               div.card-content
+                  p This is a best dance academy of the universe
+        div.card
+           h3 Expert Teaching
+           div.card-box
+               div.card-img
+                  img(src="/static/photos/d.jpg")
+               div.card-content
+                  p This is a best dance academy of the universe
+    section#detailSection 
+        h2 details 
+        p Contact number- 3994380140101,940414010140
+        p Email_id -huwhquhdohdiohh@gmail.com
+        p timing- 9:00 am - 6:00pm,sunday closed 
+        p further details mention in a mail
+        p Address-498 b,nyay khanD-1, INDIRAPURAM GHAZIABAD,UTTAR PRADESH       
+    section#sponsorsSection 
+        h2 our sponsors 
+        div#sponsors
+            img(src="/static/photos/a.png" alt="sponsor image" class = "spimage") 
+            img(src="/static/photos/download skyp.png" alt="sponsor image" class = "spimage") 
+            img(src="/static/photos/download microsoft.png" alt="sponsor image" class = "spimage")
+            img(src="/static/photos/hp.png" alt="sponsor image" class = "spimage")  
+    
+        

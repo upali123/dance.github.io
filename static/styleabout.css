@@ -1,0 +1,17 @@
+.card{
+    
+        border: 2px solid black;
+        width: 390px;
+        text-align: left;
+        justify-content: center;
+}
+.card h1{
+    background-color: red;
+    justify-content: center;
+}
+    .card-content p{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(247, 245, 245);
+        }       
+    

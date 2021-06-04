@@ -1,0 +1,22 @@
+extends base.pug 
+block scripts
+   script(src='/static/index.js')
+
+block style 
+       style 
+         include ../static/style.css
+         include ../static/styleclassinfo.css 
+block content
+
+
+    section#classinfoSection 
+      
+        div.card
+           h1 class information
+           
+           div.card-box
+               div.card-content
+                  p timing - 9am to 6pm
+                  p location - check about 
+                  p sunday closed 
+                  p 1 month free class
